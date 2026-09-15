@@ -6,3 +6,6 @@ ReadMe after workflow is enabled.
 [![LICENSE](https://img.shields.io/github/license/ThoonThiriHan/sem.svg?style=flat-square)](https://github.com/ThoonThiriHan/sem/blob/master/LICENSE)
 
 [![Releases](https://img.shields.io/github/release/ThoonThiriHan/sem/all.svg?style=flat-square)](https://github.com/ThoonThiriHan/sem/releases)
+
+# DevOps
+![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/ThoonThiriHan/sem/main.yml?branch=develop&style=flat-square)
