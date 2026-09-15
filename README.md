@@ -1,8 +1,8 @@
 Software Engineering Methods
 ReadMe after workflow is enabled.
 
-[![workflow](https://github.com/Izzy2862006/sem/actions/workflows/main.yml/badge.svg)](https://github.com/Izzy2862006/sem/actions/workflows/main.yml)
+[![workflow](https://github.com/ThoonThiriHan/sem/actions/workflows/main.yml/badge.svg)](https://github.com/ThoonThiriHan/sem/actions/workflows/main.yml)
 
-[![LICENSE](https://img.shields.io/github/license/Izzy2862006/sem.svg?style=flat-square)](https://github.com/Izzy2862006/sem/blob/master/LICENSE)
+[![LICENSE](https://img.shields.io/github/license/ThoonThiriHan/devops.svg?style=flat-square)](https://github.com/ThoonThiriHan/devops/blob/master/LICENSE)
 
-[![Releases](https://img.shields.io/github/release/Izzy2862006/sem/all.svg?style=flat-square)](https://github.com/Izzy2862006/sem/releases)
+[![Releases](https://img.shields.io/github/release/ThoonThiriHan/devops/all.svg?style=flat-square)](https://github.com/ThoonThiriHan/devops/releases)
