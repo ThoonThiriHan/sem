@@ -7,7 +7,7 @@ import org.bson.Document;
 
 public class App
 {
-    public static void main(String[] args)
+    static void main()
     {
         //Connect to mongoDB
         MongoClient mongoClient = new MongoClient("mongo-dbserver");
