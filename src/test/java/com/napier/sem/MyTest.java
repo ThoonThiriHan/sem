@@ -51,4 +51,28 @@ class MyTest {
 
         assertDoesNotThrow(() -> app.printSalaries(employees));
     }
+
+    //testing for display employee
+    @Test
+    void testDisplayEmployee() {
+        App app = new App();
+        Employee emp = new Employee();
+
+        emp.emp_no = 2;
+        emp.first_name = "Haha";
+        emp.last_name = "HeHe";
+        emp.title = "Engineer";
+        emp.salary = 66000;
+        emp.dept_name = "IT";
+        emp.manager = "John Smith";
+
+        app.displayEmployee(emp);
+    }
+
+    @Test
+    void testDisplayEmployeeNull() {
+        App app = new App();
+
+        app.displayEmployee(null);
+    }
 }
