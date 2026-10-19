@@ -32,5 +32,5 @@ jobs:
       - name: Integration Tests and Package
         run: mvn -B verify
 
-      - name: Run Docker Compose
+      - name: Package and Run Docker Compose
         run: docker compose up --build --abort-on-container-exit
