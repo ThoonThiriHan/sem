@@ -7,4 +7,3 @@ Software Engineering Methods.
 - License [![LICENSE](https://img.shields.io/github/license/ThoonThiriHan/sem.svg?style=flat-square)](https://github.com/ThoonThiriHan/sem/blob/master/LICENSE)
 
 - Release [![Releases](https://img.shields.io/github/release/ThoonThiriHan/sem/all.svg?style=flat-square)](https://github.com/ThoonThiriHan/sem/releases)
-    
