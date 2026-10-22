@@ -155,7 +155,7 @@ class MyTest {
         emp.last_name = "HeHe";
         emp.title = "Engineer";
         emp.salary = 66000;
-        emp.dept_name = "IT";
+        emp.dept = "IT";
         emp.manager = "John Smith";
 
         app.displayEmployee(emp);
