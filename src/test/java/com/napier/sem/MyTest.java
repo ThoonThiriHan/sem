@@ -8,8 +8,18 @@ import java.util.ArrayList;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * The type My test.
+ */
 class MyTest {
+    /**
+     * The App.
+     */
     App app;
+
+    /**
+     * Init.
+     */
     @BeforeEach
     void init() {
         app = new App();
@@ -82,7 +92,11 @@ class MyTest {
 //        throw new NullPointerException();
 //    }
 
+    /**
+     * Print salaries test contains null.
+     */
     @Test
+
     void printSalariesTestContainsNull() {
         ArrayList<Employee> employees = new ArrayList<>();
         employees.add(null);
@@ -90,11 +104,17 @@ class MyTest {
         assertDoesNotThrow(() -> app.printSalaries(employees));
     }
 
+    /**
+     * Print salaries test null list.
+     */
     @Test
     void printSalariesTestNullList() {
         assertDoesNotThrow(() -> app.printSalaries(null));
     }
 
+    /**
+     * Print salaries test empty list.
+     */
     @Test
     void printSalariesTestEmptyList() {
         ArrayList<Employee> employees = new ArrayList<>();
@@ -102,6 +122,9 @@ class MyTest {
         assertDoesNotThrow(() -> app.printSalaries(employees));
     }
 
+    /**
+     * Print salaries test valid employee.
+     */
     @Test
     void printSalariesTestValidEmployee() {
         ArrayList<Employee> employees = new ArrayList<>();
@@ -118,7 +141,10 @@ class MyTest {
         assertDoesNotThrow(() -> app.printSalaries(employees));
     }
 
-    //testing for display employee
+    /**
+     * Test display employee.
+     */
+//testing for display employee
     @Test
     void testDisplayEmployee() {
         App app = new App();
@@ -135,6 +161,9 @@ class MyTest {
         app.displayEmployee(emp);
     }
 
+    /**
+     * Test display employee null.
+     */
     @Test
     void testDisplayEmployeeNull() {
         App app = new App();
